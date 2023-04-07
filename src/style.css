@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body,
+button {
+    font-size: 20px;
+}
+
+body {
+    background: #171717;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.start {
+    display: block;
+    width: 200px;
+    height: 70px;
+}
+
+.item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #171717;
+    border: 1px solid #553838;
+}
